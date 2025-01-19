@@ -1,3 +1,8 @@
 # AuraVerse--Social-Media-Application
 
-Change the main to master !
+It is an social media application where we can do such features like: 
+                   - CREATE POST
+                   - UPDATE POST
+                   - DELETE POST
+                   
+            

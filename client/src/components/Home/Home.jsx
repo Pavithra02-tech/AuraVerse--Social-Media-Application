@@ -39,7 +39,7 @@ const Home = () => {
         })
     },[refresh])
 
-    const Addlike=(_id,count)=>{
+    const Addlike=(_id,count)=>{  //adding likes for the post
         const body={
         _id,
         dataToBeUpdated:{
@@ -53,7 +53,7 @@ const Home = () => {
             })
             .catch(err =>{console.log(err);})}
       
-    const deletePost=(id)=>{
+    const deletePost=(id)=>{ // deleting post
         axios.delete('http://localhost:4000/post/delete/'+id)
         .then(res => {
           console.log(res.data);
